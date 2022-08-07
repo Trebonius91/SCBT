@@ -1,0 +1,6 @@
+VAO (Vertex Array object): Storing of data about a 3D-model, up to 16 attribute lists
+    different sorts of data in each list (vertex positions, color, normal vector, texture etc.)
+VBO: Vertex buffer object (one data entry in VAO): simply array of numbers/data
+    each VBO has an ID for accessing it. --> Stored in VAO
+Each object is built of triangles, has three vertices (corners of triangle), vertex positions of each
+    triangle store in a VBO (for a full 3D-model)
